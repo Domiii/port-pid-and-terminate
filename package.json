@@ -4,7 +4,8 @@
   "main": "killit.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "r": "start node ./serv.js && start node ./killit.js"
+    "server": "node ./serv.js",
+    "kill": "node ./killit.js"
   },
   "keywords": [],
   "author": "",

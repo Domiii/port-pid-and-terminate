@@ -19,5 +19,4 @@ const PORT = 12344;
 
   const res2 = await portPid(PORT);
   console.log('Done. PIDS found:', JSON.stringify(res2));
-
 })();
