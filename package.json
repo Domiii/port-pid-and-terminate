@@ -1,0 +1,16 @@
+{
+  "name": "port-pid-and-terminate",
+  "version": "1.0.0",
+  "main": "killit.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "r": "start node ./serv.js && start node ./killit.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "port-pid": "^0.0.7",
+    "terminate": "^2.2.2"
+  }
+}
